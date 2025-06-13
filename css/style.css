@@ -59,6 +59,9 @@ body{
     flex-direction: column;
 }
 
+.form{
+    position: relative;
+}
 
 .titulo_login{
     position: absolute;
@@ -75,7 +78,7 @@ body{
 }
 
 .campo_senha{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .bx-envelope-open,.bx-lock{
@@ -117,6 +120,8 @@ body{
 }
 
 #bnt_login{
+    position: absolute;
+    top: 120px;
     margin-top: 15px;
     width: 120px;
     height: 50px;
@@ -126,3 +131,4 @@ body{
     background-color: var(--cor3);
     color: var(--cor1);
 }
+
