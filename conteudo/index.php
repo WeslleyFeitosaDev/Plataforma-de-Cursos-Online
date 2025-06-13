@@ -9,7 +9,7 @@
 <body>
     <div class="box_login">
         <div class="parte1">
-            <img src="/img/imagem_principal" alt="">
+            <img src="img/imagem_principal.png" alt="">
         </div>
         <div class="parte2">
 
