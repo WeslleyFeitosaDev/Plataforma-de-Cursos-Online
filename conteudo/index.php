@@ -22,7 +22,7 @@
         <div class="parte2">
             <div class="formulario">
                 <h1 class="titulo_login">Login</h1>
-                <form action="" method="post">
+                <form action="" method="post" class="form">
                     <div class="campo_gmail">
                         <i class='bx  bx-envelope-open'></i> 
                         <input type="email" name="email" id="email">
