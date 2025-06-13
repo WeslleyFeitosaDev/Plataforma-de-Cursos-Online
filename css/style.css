@@ -59,6 +59,7 @@ body{
     flex-direction: column;
 }
 
+
 .titulo_login{
     position: absolute;
     top: 120px;
@@ -67,3 +68,61 @@ body{
 
 
 
+.campo_gmail,.campo_senha{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.campo_senha{
+    margin-top: 20px;
+}
+
+.bx-envelope-open,.bx-lock{
+    position: absolute;
+    color: #2B468B;
+    font-size: 25px;
+}
+
+.bx-eye{
+    position: absolute;
+    color: #2B468B;
+    font-size: 25px;
+    right: 0;
+    cursor: pointer;
+}
+
+.campo_gmail input{
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    align-items: center;
+    border: none;
+    border-bottom: 1px var(--cor2) solid;
+    padding: 0px 28px;
+    font-size: 16px;
+    outline: none;
+}
+
+.campo_senha input{
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    align-items: center;
+    border: none;
+    border-bottom: 1px var(--cor2) solid;
+    padding: 0px 28px;
+    font-size: 16px;
+    outline: none;
+}
+
+#bnt_login{
+    margin-top: 15px;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--cor3);
+    color: var(--cor1);
+}
