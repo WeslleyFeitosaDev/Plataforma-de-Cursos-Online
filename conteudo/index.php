@@ -20,8 +20,8 @@
             </div>
         </div>
         <div class="parte2">
-            <h1 class="titulo_login">Login</h1>
             <div class="formulario">
+                <h1 class="titulo_login">Login</h1>
                 <form action="" method="post">
                     <div class="campo_gmail">
                         <i class='bx  bx-envelope-open'></i> 
